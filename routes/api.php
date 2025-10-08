@@ -33,7 +33,7 @@ Route::middleware(['auth:sanctum','throttle:60,1'])->group(function () {
     Route::post('/tasks',          [TaskController::class, 'store']);
     Route::get('/tasks/{task}',    [TaskController::class, 'show']);
     Route::put('/tasks/{task}',    [TaskController::class, 'update']);
-    Route::patch('/tasks/{task}',  [TaskController::class, 'update']);
+    //Route::patch('/tasks/{task}',  [TaskController::class, 'update']);
     Route::delete('/tasks/{task}', [TaskController::class, 'destroy']);
 
     Route::post('/tasks/{task}/toggle', [TaskController::class, 'toggle']);
