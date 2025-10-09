@@ -182,5 +182,3 @@ Verifica que el servidor esté operativo y respondiendo correctamente.
 
 
 
-> 🤌 Proyecto educativo desarrollado para aprender Laravel y Vue paso a paso.
-> Ideal como base para construir APIs REST seguras con autenticación mediante tokens.
